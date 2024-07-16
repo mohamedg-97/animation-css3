@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    background-color:black;
+}
+.change {
+    text-transform: capitalize;
+    padding-top:280px;
+    font-size:80px;
+    font-weight:700px;
+    display: block;
+    text-align:center;
+    animation: change   5s linear infinite ;
+    /* animation: name- duration timing-function -delay- iteration-count -direction- fill-mode; */
+
+}
+@keyframes change {
+   50%{
+    text-shadow: 0px 0px 15px  rgb(255, 0, 0);
+   }
+}
