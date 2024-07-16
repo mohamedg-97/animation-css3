@@ -11,7 +11,7 @@
     font-weight:700px;
     display: block;
     text-align:center;
-    animation: change   5s linear infinite ;
+    animation: change   7s linear infinite ;
     /* animation: name- duration timing-function -delay- iteration-count -direction- fill-mode; */
 
 }
